@@ -1,4 +1,8 @@
 [gd_resource type="StyleBoxFlat" format=3 uid="uid://cmu32vcvdr8on"]
 
 [resource]
-bg_color = Color(0.101961, 0.717647, 0.67451, 1)
+bg_color = Color(0.729412, 0.917647, 0.203922, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
