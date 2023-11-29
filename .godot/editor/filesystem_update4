@@ -2,4 +2,5 @@ res://calculator.tscn
 res://normal_function_style.tres
 res://normal_number_style.tres
 res://normal_equal_style.tres
+res://README.md
 res://calculator.gd
