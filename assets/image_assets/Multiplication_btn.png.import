@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b2g842clb48do"
-path="res://.godot/imported/Equal_btn.png-e82a8ee865fd7fe78483fd4f53ba87dc.ctex"
+uid="uid://6vx31676noqw"
+path="res://.godot/imported/Multiplication_btn.png-3f0f082dc875f1dcc48185843078a759.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/assets/Equal_btn.png"
-dest_files=["res://.godot/imported/Equal_btn.png-e82a8ee865fd7fe78483fd4f53ba87dc.ctex"]
+source_file="res://assets/image_assets/Multiplication_btn.png"
+dest_files=["res://.godot/imported/Multiplication_btn.png-3f0f082dc875f1dcc48185843078a759.ctex"]
 
 [params]
 

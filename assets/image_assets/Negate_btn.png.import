@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://jrnaajxbuhma"
-path="res://.godot/imported/Addition_btn.png-82a8d3bf9547ec2e13320a519c3d896c.ctex"
+uid="uid://b0c11xftbgstv"
+path="res://.godot/imported/Negate_btn.png-cf78eb192137c6545b0a53f26366dec3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/assets/Addition_btn.png"
-dest_files=["res://.godot/imported/Addition_btn.png-82a8d3bf9547ec2e13320a519c3d896c.ctex"]
+source_file="res://assets/image_assets/Negate_btn.png"
+dest_files=["res://.godot/imported/Negate_btn.png-cf78eb192137c6545b0a53f26366dec3.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c0cfwwrhpac6g"
-path="res://.godot/imported/Subtraction_btn.png-1fcf5fcdb4b232a80257a05e648b5b33.ctex"
+uid="uid://jrnaajxbuhma"
+path="res://.godot/imported/Addition_btn.png-11f8c97d29259623cc8afd3a42d2446f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/assets/Subtraction_btn.png"
-dest_files=["res://.godot/imported/Subtraction_btn.png-1fcf5fcdb4b232a80257a05e648b5b33.ctex"]
+source_file="res://assets/image_assets/Addition_btn.png"
+dest_files=["res://.godot/imported/Addition_btn.png-11f8c97d29259623cc8afd3a42d2446f.ctex"]
 
 [params]
 

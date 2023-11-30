@@ -1,5 +1,6 @@
-AudioStreamPlayer2D
+Timer
 TextureRect
+AudioStreamPlayer2D
 Button
 HBoxContainer
 GridContainer

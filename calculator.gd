@@ -8,6 +8,8 @@ extends Control
 @onready var tate = $tate
 @onready var function_buttons_audio = $function_buttons_audio
 @onready var equal_sound = $equal_sound
+@onready var timer = $Timer
+@onready var secret_image = $secret_image
 
 var has_been_used := false
 var first_number : float
@@ -30,10 +32,12 @@ func _number_buttons(btn):
 		work_area.text += btn.name
 	
 	if work_area.text == "88898":
-		$tate.play()
+		tate.play()
+	else:
+		tate.stop()
 
 func _on_equal_button_pressed():
-	$equal_sound.play()
+	equal_sound.play()
 	has_been_used = false
 	var result : float
 	second_number = work_area.text.to_float()
@@ -52,7 +56,7 @@ func _on_equal_button_pressed():
 
 
 func _on_add_btn_pressed():
-	$function_buttons_audio.play()
+	function_buttons_audio.play()
 	has_been_used = false
 	first_number = work_area.text.to_float()
 	operator = "+"
@@ -60,7 +64,7 @@ func _on_add_btn_pressed():
 
 
 func _on_subtract_btn_pressed():
-	$function_buttons_audio.play()
+	function_buttons_audio.play()
 	has_been_used = false
 	first_number = work_area.text.to_float()
 	operator = "-"
@@ -68,7 +72,7 @@ func _on_subtract_btn_pressed():
 
 
 func _on_multiply_btn_pressed():
-	$function_buttons_audio.play()
+	function_buttons_audio.play()
 	has_been_used = false
 	first_number = work_area.text.to_float()
 	operator = "*"
@@ -76,7 +80,7 @@ func _on_multiply_btn_pressed():
 
 
 func _on_division_btn_pressed():
-	$function_buttons_audio.play()
+	function_buttons_audio.play()
 	has_been_used = false
 	first_number = work_area.text.to_float()
 	operator = "/"
@@ -85,7 +89,7 @@ func _on_division_btn_pressed():
 
 func _on_delete_btn_pressed():
 	if has_been_used:
-		$backspace_audio.play()
+		backspace_audio.play()
 		if work_area.text.length() >= 2:
 			work_area.text = work_area.text.left(-1)
 		else:
@@ -94,7 +98,7 @@ func _on_delete_btn_pressed():
 
 
 func _on_negative_btn_pressed():
-	$function_buttons_audio.play()
+	function_buttons_audio.play()
 	var result : float
 	first_number = work_area.text.to_float()
 	result = -first_number
@@ -107,14 +111,14 @@ func _on_negative_btn_pressed():
 	has_been_used = true
 
 func _on_clear_btn_pressed():
-	$function_buttons_audio.play()
+	function_buttons_audio.play()
 	has_been_used = false
 	prev_work_area.text = ""
 	work_area.text = "0"
 	decimal_allowed = true
 
 func _on_decimal_btn_pressed():
-	$button_click_audio.play()
+	button_click_audio.play()
 	if decimal_allowed:
 		if has_been_used == true:
 			work_area.text = work_area.text + "."
